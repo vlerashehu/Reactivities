@@ -11,7 +11,7 @@ interface IProps{
     selectedActivity: IActivity | null;
     editMode:boolean;
     setEditMode:(editMode: boolean)=>void;
-    setSelectedActivity:(activity: IActivity | null)=>void;
+    setSelectedActivity:(activity: IActivity| null)=>void;
     createActivity: (activity: IActivity) =>void;
     editActivity: (activity: IActivity) =>void;
     deleteActivity:(id:string)=>void;

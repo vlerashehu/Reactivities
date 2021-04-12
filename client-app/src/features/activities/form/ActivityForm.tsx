@@ -103,7 +103,7 @@ const ActivityForm: React.FC<IProps> = ({
                 <Button
                  onClick={()=> setEditMode(false)}
                 floated='right'
-                positive 
+               
                 type ='button' 
                 content='Cancel'/>
             </Form>
